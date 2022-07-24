@@ -15,10 +15,10 @@
             <a href="#" class="btn_add">+</a>
         </div>
         <div class="card card_list">
-            <ul class="tab" style="cursor: pointer">
-                <li class="all active">全部</li>
-                <li class="todo">待處理</li>
-                <li class="finished">已完成</li>
+            <ul class="tab" id="tab">
+                <li class="active" data-tab="all">全部</li>
+                <li data-tab="work">待處理</li>
+                <li data-tab="done">已完成</li>
             </ul>
             <div class="cart_content">
                 <ul class="list">                    
@@ -31,7 +31,7 @@
                     </li>-->
                 </ul>
                 <div class="list_footer">
-                    <p></p>
+                    <p class="workNum"></p>
                     <a href="#">清除已完成的項目</a>
                 </div>
             </div>
